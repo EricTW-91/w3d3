@@ -1,0 +1,72 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: #41729F;
+}
+
+section form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 50vw;
+  height: 50px;
+  margin: 0 auto;
+}
+
+section form label {
+  color: white;
+}
+
+section form select {
+  width: 5rem;
+  height: 20px;
+  margin: 0 10px;
+}
+
+section form input {
+  margin: 0 10px;
+  width: 3rem;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #274472;
+}
+
+.users {
+  width: 90vw;
+  border: 2px solid black;
+  border-radius: 12px;
+  margin: 20px auto 20px auto;
+  padding: 10px 20px 10px 20px;
+  background-color: #f9f9f9;
+}
+
+.users ul {
+  list-style: none;
+}
+/*# sourceMappingURL=main.css.map */

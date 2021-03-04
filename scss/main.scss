@@ -1,0 +1,47 @@
+@import './reset';
+
+section{
+    position: sticky;
+    top: 0;
+    background-color: #41729F;
+    
+    form{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 50vw;
+        height: 50px;
+        margin: 0 auto;
+        label{
+            color: white;
+        }
+        select{
+            width: 5rem;
+            height: 20px;
+            margin: 0 10px;
+        }
+        input{
+            margin: 0 10px;
+            width: 3rem;
+        }
+    }
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    background-color: #274472;
+}
+
+.users{
+        width: 90vw;
+        border: 2px solid black;
+        border-radius: 12px ;
+        margin: 20px auto 20px auto;
+        padding: 10px 20px 10px 20px;
+        background-color: rgb(249,249,249);
+        ul{
+            list-style: none;
+        }
+    }
